@@ -1,12 +1,23 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>My First Github Webpage</title>
+    <title>Remix: Voting App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="applab/fa-brands-400.woff2" as="font">
+    <link rel="preload" href="applab/fa-solid-900.woff2" as="font">
+    <link rel="preload" href="applab/fa-regular-400.woff2" as="font">
+    <link rel="preload" href="applab/fa-v4compatibility.woff2" as="font">
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script>
+      function setExportConfig(config) { window.EXPORT_OPTIONS = config; }
+    </script>
+    <script src="https://studio.code.org/projects/applab/9j65o3TbDqHQ921OPVVwL0z9HYvTglFes5itf2OY8Fs/export_config?script_call=setExportConfig"></script>
+    <script src="applab/applab-api.js"></script>
+    <script src="https://www.google.com/jsapi"></script>
+    <link rel="stylesheet" href="applab/applab.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-  
-    <h1>This is My First Github Webpage</h1>
-    <p>There are many like it, but this one is mine...</p>
-
-</body>
+    <div id="divApplab" class="appModern running" style="width: 320px; height: 450px; display: block;"><div class="screen" tabindex="1" id="voteScreen" style="height: 450px; width: 320px; left: 0px; top: 0px; position: absolute; z-index: 0; background-color: rgb(255, 255, 255);" data-theme="classic"><img src="assets/cat.jpg" data-canonical-image-url="assets/cat.jpg" id="catImage" style="height: 200px; width: 320px; position: absolute; left: 0px; top: 0px; margin: 0px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px;" data-image-type="file"><img src="assets/dog_image.jpg" data-canonical-image-url="assets/dog_image.jpg" id="dogImage" style="height: 195px; width: 320px; position: absolute; left: 0px; top: 255px; margin: 0px; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px;" data-image-type="file"><label style="margin: 0px; padding: 2px; line-height: 1; font-size: 14px; overflow: hidden; overflow-wrap: break-word; color: rgb(51, 51, 51); max-width: 320px; width: 189px; height: 19px; position: absolute; left: 70px; top: 205px; background-color: rgba(0, 0, 0, 0); text-rendering: optimizespeed; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; font-family: Arial, Helvetica, sans-serif;" id="label1">cat person or dog person? </label><label style="margin: 0px; padding: 2px; line-height: 1; font-size: 14px; overflow: hidden; overflow-wrap: break-word; color: rgb(51, 51, 51); max-width: 320px; width: 160px; height: 20px; position: absolute; left: 80px; top: 230px; background-color: rgba(0, 0, 0, 0); text-rendering: optimizespeed; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; font-family: Arial, Helvetica, sans-serif;" id="label2">click a picture to vote!</label></div><div class="screen" tabindex="1" id="resultsScreen" style="display: none; height: 450px; width: 320px; left: 0px; top: 0px; position: absolute; z-index: 0; background-color: rgb(255, 255, 255);" data-theme="classic"><div class="chart" id="resultsChart" style="height: 360px; width: 330px; position: absolute; top: 50px; margin: 0px; left: 5px;"></div><button id="voteAgain" style="padding: 0px; margin: 0px; height: 30px; width: 100px; font-size: 14px; color: rgb(255, 255, 255); position: absolute; left: 10px; top: 405px; background-color: rgb(26, 178, 189); border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; font-family: Arial, Helvetica, sans-serif;">Vote again!</button><label style="margin: 0px; padding: 2px; line-height: 1; font-size: 20px; overflow: hidden; overflow-wrap: break-word; color: rgb(51, 51, 51); max-width: 320px; width: 223px; height: 25px; position: absolute; left: 10px; top: 5px; background-color: rgba(0, 0, 0, 0); text-rendering: optimizespeed; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; font-family: Arial, Helvetica, sans-serif;" id="label3">And the results are in! </label><label style="margin: 0px; padding: 2px; line-height: 1; font-size: 14px; overflow: hidden; overflow-wrap: break-word; color: rgb(51, 51, 51); max-width: 320px; width: 275px; height: 47px; position: absolute; left: 10px; top: 40px; background-color: rgba(0, 0, 0, 0); text-rendering: optimizespeed; border-style: solid; border-width: 0px; border-color: rgb(0, 0, 0); border-radius: 0px; font-family: Arial, Helvetica, sans-serif;" id="label4">Share this app with your friends to see what percentage are dog-people vs. cat-people</label></div></div>
+  </body>
 </html>
